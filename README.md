@@ -14,7 +14,7 @@ Brain-Metastases-Lung-MRI-ImageMask-Dataset.zip</a> with colorized masks
 Rad Images and Segmentations
 </a>
 <br> by Md. Shahat Akash.
-<br><br>
+<br>
 <hr>
 <b>Actual Image Segmentation for 512x512-pixel Brain-Metastases-Lung-MRI</b><br>
 As shown below, the inferred masks look similar to the ground truth masks except for the first case. <br>
