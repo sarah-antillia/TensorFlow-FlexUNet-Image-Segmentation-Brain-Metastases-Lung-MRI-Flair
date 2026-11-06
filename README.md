@@ -116,10 +116,10 @@ The folder structure of the original dataset is as follows.<br>
     │   └─YG_HAEAKFOSOSWC_whole_seg.nii
 ...
     └─YG_ZZD94XZ3WNE2
-          ├─YG_HAEAKFOSOSWC_core_seg.nii
-          ├─YG_HAEAKFOSOSWC_flair_img.nii
-          ├─YG_HAEAKFOSOSWC_t1ce_img.nii
-          └─YG_HAEAKFOSOSWC_whole_seg.nii
+        ├─YG_HAEAKFOSOSWC_core_seg.nii
+        ├─YG_HAEAKFOSOSWC_flair_img.nii
+        ├─YG_HAEAKFOSOSWC_t1ce_img.nii
+        └─YG_HAEAKFOSOSWC_whole_seg.nii
 </pre>		
 We generated our own ImageMaskDataset  from the Flair images <b>*_flair_img.nii</b>,
 and colorized masks combined with Core masks (dark_red) <b>*_core_seg.nii</b> and 
