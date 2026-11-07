@@ -7,6 +7,7 @@ __pycache__/
 dataset/
 projects/*/*/models/
 projects/*/*/epoch_change_infer/
+generator/
 
 # C extensions
 *.so

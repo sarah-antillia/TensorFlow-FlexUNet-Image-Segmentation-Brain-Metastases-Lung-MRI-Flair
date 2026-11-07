@@ -6,7 +6,7 @@ our <a href="https://github.com/sarah-antillia/TensorFlow-FlexUNet-Image-Segment
  (<b>TensorFlow Flexible UNet Image Segmentation Model for Multiclass</b>) and a 512x512-pixel 
  PNG
  <a href="https://drive.google.com/file/d/1sVTjRE8o45hraOP2Jq5o6huD19_P-BM7/view?usp=sharing">
-Brain-Metastases-Lung-MRI-ImageMask-Dataset.zip</a> with colorized masks
+Brain-Metastases-Lung-MRI-ImageMask-Dataset.zip</a> with colorized masks 
 (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
 ), which was derived by us from the Kaggle:
 <br><br>
@@ -124,9 +124,7 @@ The folder structure of the original dataset is as follows.<br>
 We generated our own ImageMaskDataset  from the Flair images <b>*_flair_img.nii</b>,
 and colorized masks combined with Core masks (dark_red) <b>*_core_seg.nii</b> and 
 Whole masks (yellow) <b>*_whole_seg.nii</b>.
-by using the Python script <a href="./generator/ImageMaskDatasetGenerator.py">
-ImageMaskDatasetGenerator.py
-</a>.
+by using a simple Python script. 
 <br>
 <h3>2.3 Train Sample Images and Masks</h3>
 <b>Train_sample_images</b><br>
